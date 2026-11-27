@@ -453,7 +453,7 @@ def build(out_path):
         t = str(num)
         f = font(SANS_B, 9)
         d.text((cx - d.textlength(t, font=f) / 2, cy - 6), t, font=f, fill=(255, 255, 255))
-    
+
     d.rectangle([466, y0, W - 24, 904], outline=INK, width=1)
     d.text((476, y0 + 6), "AND ALSO — STORIES 14-40", font=font(SANS_B, 11), fill=INK)
     f_item = font(SANS, 8)
